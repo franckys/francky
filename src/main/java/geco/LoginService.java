@@ -1,4 +1,4 @@
-package deqo;
+package geco;
 
 import java.util.ArrayList;
 import java.util.Arrays;
