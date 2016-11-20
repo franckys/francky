@@ -6,7 +6,7 @@ import org.junit.Test;
 
 /**
  * Created by Franck on 20/11/2016.
- * for close fix #9
+ * for close  again with assign fix #9
  */
 public class LoginGeneratorTest {
     private LoginGenerator aLoginGenerator ;
