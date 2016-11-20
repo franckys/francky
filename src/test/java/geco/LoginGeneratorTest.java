@@ -40,4 +40,14 @@ public class LoginGeneratorTest {
         String login = aLoginGenerator.generateLoginForNomAndPrenom("Ralling","John");
         Assert.assertEquals("JRAL2",login);
     }
+
+    /**
+     * #9 bug si le nom a moin de 3 caractere
+     */
+    @Test
+    public void loginPDUShort(){
+        String login = aLoginGenerator.generateLoginForNomAndPrenom("Du","Paul");
+        Assert.assertEquals("PDU",login);
+    }
+
 }
