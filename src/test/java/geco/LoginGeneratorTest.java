@@ -43,6 +43,7 @@ public class LoginGeneratorTest {
 
     /**
      * #9 bug si le nom a moin de 3 caractere
+     * just for close
      */
     @Test
     public void loginPDUShort(){
