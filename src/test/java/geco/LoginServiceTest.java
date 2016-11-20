@@ -37,6 +37,9 @@ public class LoginServiceTest {
         Assert.assertEquals(0,starta.size());
         List<String> startaUpper = ls.findAllLoginsStartingWith("A");
         Assert.assertEquals(1,startaUpper.size());
+        ls.addLogin("AAA");
+        startaUpper = ls.findAllLoginsStartingWith("A");
+        Assert.assertEquals(2,startaUpper.size());
     }
 
 }
